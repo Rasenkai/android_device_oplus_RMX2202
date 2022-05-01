@@ -1179,6 +1179,7 @@ odm/lib64/hw/fingerprint.goodix_G3.default.so|2a7aa43f49cce7142f89e317980f377419
 odm/lib64/anc.hal.so|194fee4d033990f30a751cd32dcb57914279c6f8
 odm/lib64/libgf_hal_G3.so|7740c9b9bd9c18cdf6e08ca30fdb0ce2cb29d7a9
 odm/lib64/vendor.oplus.hardware.commondcs@1.0.so|a238d506bc890b05f7f297e171406b7625a2d77d
+odm/lib64/vendor.oplus.hardware.performance@1.0.so|a238d506bc890b05f7f297e171406b7625a2d77d
 odm/vendor/firmware/goodixfp.b00|3301a5e000c2437155f3af418da1123e33a8929d
 odm/vendor/firmware/goodixfp.b01|74fd3fa6461cb6bf340ed504527814150ff5d89c
 odm/vendor/firmware/goodixfp.b02|40ba637523a8f4e2a97e02334afda5a50a8f1dd1
