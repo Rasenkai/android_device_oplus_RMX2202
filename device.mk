@@ -181,7 +181,6 @@ PRODUCT_PACKAGES += \
     init.oplus.telephony.rc \
     init.qti.ufs.rc \
     init.target.rc \
-    ueventd.lahaina.rc \
     ueventd.oplus.rc \
     init.oplus.post_boot.sh
 
