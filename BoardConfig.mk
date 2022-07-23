@@ -7,6 +7,8 @@
 DEVICE_PATH := device/oplus/RMX2202
 
 # Kernel
+TARGET_KERNEL_SOURCE := kernel/oplus/RMX2202
+TARGET_KERNEL_CONFIG := cupid_defconfig
 DEVICE_USES_PREBUILT_DTB := true
 PREBUILT_PATH := $(DEVICE_PATH)/prebuilt
 

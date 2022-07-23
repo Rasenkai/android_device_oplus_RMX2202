@@ -4,6 +4,8 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+PRODUCT_OTA_ENFORCE_VINTF_KERNEL_REQUIREMENTS := false
+
 # AAPT
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
@@ -33,4 +35,4 @@ PRODUCT_SOONG_NAMESPACES += \
 $(call inherit-product, device/oplus/sm8350-common/common.mk)
 
 # Inherit from the proprietary files makefile.
-$(call inherit-product, vendor/oplus/RMX2202/RMX3360-vendor.mk)
+$(call inherit-product, vendor/oplus/RMX2202/RMX2202-vendor.mk)
