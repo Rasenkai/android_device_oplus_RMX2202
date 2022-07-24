@@ -505,6 +505,11 @@ vendor/firmware/a660_zap.mdt
 vendor/lib/hw/vulkan.adreno.so
 vendor/lib64/hw/vulkan.adreno.so
 
+# NFC
+odm/lib/libsn100u_fw.so:vendor/lib/libsn100u_fw.so
+odm/etc/nfc/libnfc-mtp-SN100.conf_20664:vendor/etc/libnfc-mtp-SN100.conf
+odm/etc/nfc/libnfc-nci.conf_20664:vendor/etc/libnfc-nci.conf
+
 # Recovery
 odm/etc/20664/build.default.prop
 odm/etc/20664/build.eea.prop
