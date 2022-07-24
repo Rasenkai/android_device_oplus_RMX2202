@@ -674,6 +674,7 @@ odm/lib64/libop-ai-beauty-body-detection.so
 odm/lib64/libop-ai-beauty-faceretouch-cn.so
 odm/lib64/liboplus_service.so
 odm/lib64/liboplusvppfilter.so
+odm/lib64/libormshalclient.so
 odm/lib64/libosie_process.so
 odm/lib64/libosie_stub.so
 odm/lib64/libsnpe_dsp_domains_v2.so
@@ -692,6 +693,7 @@ odm/lib64/libtriplecam_optical_zoom_control.so
 odm/lib64/libtriplecam_video_optical_zoom.so
 odm/lib64/libui.so
 odm/lib64/libwatermark_photo.so
+odm/lib64/vendor.oplus.hardware.orms@1.0.so
 vendor/etc/camera/M_Attribute_AG_BMW_1.1.0.model.hardcode
 vendor/lib64/camera/components/com.qti.camx.chiiqutils.so
 vendor/lib64/camera/components/com.qti.eisv2.so
@@ -835,6 +837,17 @@ vendor/lib64/libthreadutils.so
 vendor/lib64/vendor.oplus.hardware.cammidasservice@1.0.so
 vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
 
+# Fingerprint
+odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service
+odm/bin/init.oplus.fingerprints.sh
+odm/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc
+odm/etc/vintf/manifest/manifest_oplus_fingerprint.xml
+odm/lib64/hw/fingerprint.goodix_G3.default.so
+odm/lib64/anc.hal.so
+odm/lib64/libgf_hal_G3.so
+odm/lib64/vendor.oplus.hardware.commondcs@1.0.so
+odm/lib64/vendor.oplus.hardware.performance@1.0.so
+
 # Firmware (Goodix Fingerprint)
 odm/vendor/firmware/goodixfp.b00
 odm/vendor/firmware/goodixfp.b01
@@ -850,6 +863,65 @@ odm/vendor/firmware/goodixfp.mdt
 odm/firmware/tp/20627/FW_FT3518_SAMSUNG.img
 odm/firmware/tp/20627/FW_FT3518_SAMSUNG_FAE.img
 odm/firmware/tp/20627/LIMIT_FT3518_SAMSUNG.img
+
+
+# Graphics (Adreno)
+vendor/lib/egl/eglSubDriverAndroid.so
+vendor/lib/egl/libEGL_adreno.so
+vendor/lib/egl/libGLESv1_CM_adreno.so
+vendor/lib/egl/libGLESv2_adreno.so
+vendor/lib/egl/libq3dtools_adreno.so
+vendor/lib/egl/libq3dtools_esx.so
+vendor/lib/libC2D2.so
+vendor/lib/libCB.so
+vendor/lib/libOpenCL.so
+vendor/lib/libVkLayer_q3dtools.so
+vendor/lib/libadreno_app_profiles.so
+vendor/lib/libadreno_utils.so
+vendor/lib/libc2d30_bltlib.so
+vendor/lib/libgpudataproducer.so
+vendor/lib/libgsl.so
+vendor/lib/libllvm-glnext.so
+vendor/lib/libllvm-qcom.so
+vendor/lib64/egl/eglSubDriverAndroid.so
+vendor/lib64/egl/libEGL_adreno.so
+vendor/lib64/egl/libGLESv1_CM_adreno.so
+vendor/lib64/egl/libGLESv2_adreno.so
+vendor/lib64/egl/libq3dtools_adreno.so
+vendor/lib64/egl/libq3dtools_esx.so
+vendor/lib64/libC2D2.so
+vendor/lib64/libCB.so
+vendor/lib64/libOpenCL.so
+vendor/lib64/libVkLayer_q3dtools.so
+vendor/lib64/libadreno_app_profiles.so
+vendor/lib64/libadreno_utils.so
+vendor/lib64/libc2d30_bltlib.so
+vendor/lib64/libgpudataproducer.so
+vendor/lib64/libgsl.so
+vendor/lib64/libllvm-glnext.so
+vendor/lib64/libllvm-qcom.so
+
+# Graphics (Adreno firmware)
+vendor/firmware/a660_gmu.bin
+vendor/firmware/a660_sqe.fw
+vendor/firmware/a660_zap.b00
+vendor/firmware/a660_zap.b01
+vendor/firmware/a660_zap.b02
+vendor/firmware/a660_zap.elf
+vendor/firmware/a660_zap.mdt
+
+# Graphics (Vulkan)
+vendor/lib/hw/vulkan.adreno.so
+vendor/lib64/hw/vulkan.adreno.so
+
+# Recovery
+odm/etc/20664/build.default.prop
+odm/etc/20664/build.eea.prop
+odm/etc/20664/build.gsi.prop
+odm/etc/20664/build.ru.prop
+odm/etc/20664/build.t2.prop
+odm/etc/20664/build.tr.prop
+odm/etc/20664/flags.prop
 
 # Sensors
 odm/etc/sensor.cfg
