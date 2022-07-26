@@ -8,7 +8,7 @@ DEVICE_PATH := device/oplus/RMX2202
 
 # Kernel
 TARGET_KERNEL_SOURCE := kernel/oplus/RMX2202
-TARGET_KERNEL_CONFIG := cupid_defconfig
+TARGET_KERNEL_CONFIG := vendor/cupid_defconfig
 
 # Include the common OEM chipset BoardConfig.
 include device/oplus/sm8350-common/BoardConfigCommon.mk
