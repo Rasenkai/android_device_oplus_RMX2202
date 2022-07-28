@@ -181,6 +181,16 @@
             <instance>dpmQmiService</instance>
         </interface>
     </hal>
+    <!-- DRM -->
+    <hal format="hidl">
+    <transport>hwbinder</transport>
+    <name>android.hardware.drm</name>
+    <version>1.4</version>
+    <interface>
+        <name>IDrmFactory</name>
+        <instance>clearkey</instance>
+    </interface>
+    </hal>
     <!-- DSP -->
     <hal format="hidl">
         <name>vendor.qti.hardware.dsp</name>
