@@ -729,6 +729,13 @@ odm/etc/camera/mwStereoParams.bin|6d357fadc52ab95e95c4a92590fe7f7849c8a1c4
 odm/etc/camera/settings_fdc.txt|e387daf252c247ae56bb6789a5d6630dadd1d68f
 odm/etc/camera/wide.bin|778a284bfedcc8a33881b9121b3d5d667d59d19e
 odm/lib/libDeVIS.so|591cbc06ba01be85bf579e8b2a177300a34698ed
+odm/lib/libaiboost_qnn_sr.so|34e3012cfe9b6cf47f25131600960ce969f81f69
+odm/lib/libaiboost_sr.so|6a9f0394e25df1ff23f36a6ddbde4d3e932c8414
+odm/lib/libaiboost_ubwc.so|d291397e2b5f3881793b5f1a88ef216126eba8ef
+odm/lib/liboplusvppfilter.so|71aebd1c1e35ff1b41e43b3083f783b705d659b8
+odm/lib/libosie_process.so|cf6ee68938ecc9d914fd059e4b13c5bfc908d186
+odm/lib/libosie_stub.so|fdd6eccf28cdc16f8f1fb37541758ebf24ab2150
+odm/lib/libc++_shared.so|1ec35a25d92cfc44994d696c2c1f623106888687
 odm/lib64/camera/components/com.oplus.node.pilot.so|9a5812be40ae0180c3f83ad8aeedc12a166773c4
 odm/lib64/camera/components/com.oplus.node.preview.so|47aa09bc8dd9ae23c48058dcb5823aa694acf3dd
 odm/lib64/camera/components/com.oplus.node.videoenhance.so|1b8c3eb6f014e383e21b4b66b0d44cfc300f371f
@@ -930,6 +937,7 @@ vendor/lib64/camera/components/com.qtistatic.stats.pdlib.so|0d90e21049528c583c20
 vendor/lib64/camera/components/libdepthmapwrapper_secure.so|1ee65fd7f3094fd614b1a84bcd4c1306680bb7c1
 vendor/lib64/hw/camera.qcom.so|d638704f6a869211cdae23f98d885d42019d281d
 vendor/lib64/hw/com.qti.chi.override.so|b985d6fa985eb9657a809f3be69ed49960fbc7f7
+vendor/lib64/libcamxjson.so|cf3d0edc9af24bb37fb01d9bbcf9a86af340c125
 vendor/lib64/com.qti.chiusecaseselector.so|5ab1fe32f6b2f30a1b733492555be625ef88afd5
 vendor/lib64/com.qti.feature2.anchorsync.so|6ea7cf96452f97313bff7b8d8a35879bd87eea87
 vendor/lib64/com.qti.feature2.demux.so|fa6e9a0fb4603f4e65bcf8c943318da84cca7c49
@@ -1020,7 +1028,7 @@ vendor/lib64/libsynx.so|4e28fdc1816d8dc8ab20bc2b4e3d3cced1b2f1e3
 vendor/lib64/libtfestriping.so|61f015643f4fd50f8043f712d0df726cf78dc431
 vendor/lib64/libthreadutils.so|6ab1d3ce2d2b7e7c36bff6cda4e0f450e303a1de
 vendor/lib64/vendor.oplus.hardware.cammidasservice@1.0.so|bf9174821ff9c980b80898057f7025f82fd32477
-vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so|41ff023bb72c65b38ded7f51c9be02fd9b653618
+vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so|0bed32bc1b8914a214d2bbb9b46387014feb8b4a
 
 # Camera firmware - RMX3360_C.06
 vendor/firmware/CAMERA_ICP.elf|d5e1a5d65150a40e8c9a40a51cb1592d302f4b5a
@@ -1179,7 +1187,7 @@ odm/lib64/hw/fingerprint.goodix_G3.default.so|2a7aa43f49cce7142f89e317980f377419
 odm/lib64/anc.hal.so|194fee4d033990f30a751cd32dcb57914279c6f8
 odm/lib64/libgf_hal_G3.so|7740c9b9bd9c18cdf6e08ca30fdb0ce2cb29d7a9
 odm/lib64/vendor.oplus.hardware.commondcs@1.0.so|a238d506bc890b05f7f297e171406b7625a2d77d
-odm/lib64/vendor.oplus.hardware.performance@1.0.so|a238d506bc890b05f7f297e171406b7625a2d77d
+odm/lib64/vendor.oplus.hardware.performance@1.0.so|e865fd14e30529c3e1ef87f1fedccd9aac983f91
 odm/vendor/firmware/goodixfp.b00|3301a5e000c2437155f3af418da1123e33a8929d
 odm/vendor/firmware/goodixfp.b01|74fd3fa6461cb6bf340ed504527814150ff5d89c
 odm/vendor/firmware/goodixfp.b02|40ba637523a8f4e2a97e02334afda5a50a8f1dd1
